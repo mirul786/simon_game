@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  1%;
+  color: #111111;
+}
+
+.container {
+  width: 45%;
+  margin: 2rem auto 0;
+  z-index: 1;
+
+}
+
+
+.buttonClass1 {
+  font-size:15px;
+  font-family:Arial;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  width:40rem;
+  height:2rem;
+  border-width:1px;
+  color:#333333;
+  border-color:#ffaa22;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  text-shadow: 0px 1px 0px #ffee66;
+  background:linear-gradient(#ffec64, #ffab23);
+}
+
+.buttonClass1:hover {
+  background: linear-gradient(#ffab23, #ffec64);
+}
+ 
+
+.buttonClass2 {
+  font-size:15px;
+  font-family:Arial;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width:40rem;
+  height:2rem;
+  border-width:1px;
+  color:#333333;
+  border-color:#ffaa22;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  text-shadow: 0px 1px 0px #ffee66;
+  background:linear-gradient(#ffec64, #ffab23);
+}
+
+.buttonClass2:hover {
+  background: linear-gradient(#ffab23, #ffec64);
+}
+
+.row {
+  margin: auto;
+}
+
+.btns {
+  margin: 0 20px 10px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#game-oer-button {
+  margin-top: 3rem;
+}
+
+#game-over-title {
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  width: 80%;
+  margin-bottom:  2rem;
+  font-size: 1.5rem;
+  color: #111111;
+  opacity: 0;
+  z-index: 2;
+
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/* Media Query */
+
+@media (max-width: 700px) {
+
+  #level-title {
+
+    font-size: 1.3rem;
+
+  }
+
+  #game-over-title {
+    width: 1%;
+    font-size: 0.6rem; 
+  }
+  
+  .buttonClass1 {
+    
+    width:20rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
+  }
+
+  .buttonClass2 {
+    
+    width:5%;
+    padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
+
+  .btn {
+    margin: 0 20px 10px;
+    display: table;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  .row{
+
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+
+
+  }
